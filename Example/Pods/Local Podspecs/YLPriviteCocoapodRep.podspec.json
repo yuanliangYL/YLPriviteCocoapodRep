@@ -1,0 +1,22 @@
+{
+  "name": "YLPriviteCocoapodRep",
+  "version": "0.1.0",
+  "summary": "YLPriviteCocoapodRep是一个cocoapod 私有库测试库代码",
+  "description": "这是一个用来测试cocoapod私有库的项目",
+  "homepage": "https://github.com/yuanliangios@163.com/YLPriviteCocoapodRep",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlbertYuan": "yuanliangios@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yuanliangios@163.com/YLPriviteCocoapodRep.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YLPriviteCocoapodRep/Classes/**/*"
+}

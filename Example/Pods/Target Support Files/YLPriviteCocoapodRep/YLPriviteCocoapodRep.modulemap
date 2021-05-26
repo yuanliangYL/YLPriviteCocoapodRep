@@ -1,0 +1,6 @@
+framework module YLPriviteCocoapodRep {
+  umbrella header "YLPriviteCocoapodRep-umbrella.h"
+
+  export *
+  module * { export * }
+}

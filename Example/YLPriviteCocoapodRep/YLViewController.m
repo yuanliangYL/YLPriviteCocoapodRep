@@ -7,6 +7,7 @@
 //
 
 #import "YLViewController.h"
+#import "DebugInfoLog.h"
 
 @interface YLViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [DebugInfoLog showDebugInfo:^{
+
+        NSLog(@"内置文件在pod中测试");
+
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,6 +8,9 @@ target 'YLPriviteCocoapodRep_Example' do
   target 'YLPriviteCocoapodRep_Tests' do
     inherit! :search_paths
 
-    
+   pod 'Reachability', '~> 3.2'
+   pod 'ReactiveCocoa', '~> 2.5'
+   pod 'AFNetworking', '~> 2.3'
+   
   end
 end
