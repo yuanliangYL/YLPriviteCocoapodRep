@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YLPriviteCocoapodRep_Example' do
+  pod 'YLPriviteCocoapodRep', :path => '../'
+
+  target 'YLPriviteCocoapodRep_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
